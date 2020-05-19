@@ -105,14 +105,22 @@ footer {
   position: fixed;
 }
 
-.github {
+.bottom-icons {
   display: inline-block;
-  background: url(../assets/images/github-brands.svg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 40px;
   width: 40px;
   padding: 10px;
+}
+
+.github {
+  background: url(../assets/images/github-brands.svg);
+}
+
+/*Icon made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>*/
+.email {
+  background: url(../assets/images/email.svg);
 }
 
 /**
