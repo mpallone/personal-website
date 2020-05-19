@@ -1,5 +1,12 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-{{outlet}}
+  <NavBar />
+<div class="container">
+  <div class="body">
+  	<div class="right my-face"></div>
+    {{outlet}}
+  </div>
+  <footer> 
+     <a href="https://www.github.com/mpallone" class="github"></a>
+ </footer>
+</div>
