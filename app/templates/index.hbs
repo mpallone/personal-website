@@ -14,12 +14,11 @@
 
 </div>
 
-<!-- <h2 class="cool-things-section-title">Cool things I've done</h2> -->
 <div class="cool-things">
 	<ul>
-		<li><CoolThing /></li>
-		<li><CoolThing /></li>
-		<li><CoolThing /></li>
+        {{#each @model as |coolthing|}}
+          <li><CoolThing @coolthing={{coolthing}} /></li>
+        {{/each}}
 	</ul>
 </div>
 
