@@ -103,8 +103,8 @@ li {
   list-style: none;
 }
 
-.cool-thing {
-
+.cool-thing-img {
+  border: 2px solid grey;
 }
 
 footer {
