@@ -93,8 +93,9 @@ h2 {
   font-size: 3em;
 }
 
-.cool-things-section-title {
+.cool-thing-title {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 li {

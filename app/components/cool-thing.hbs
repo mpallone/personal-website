@@ -1,7 +1,12 @@
 <div class="cool-thing jumbotron media">
-  <img src={{@coolthing.image}} class="mr-3" alt="...">
   <div class="media-body">
-    <h3 class="mt-0">{{@coolthing.title}}</h3>
-    {{@coolthing.description}}
+
+    <h3 class="mt-0 cool-thing-title">{{@coolthing.title}}</h3>
+
+    <div>
+        <p style="float: left;"><img src={{@coolthing.image}} border="1px"></p>
+        <p>{{{@coolthing.description}}}</p>
+    </div>
+
   </div>
 </div>
