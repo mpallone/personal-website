@@ -79,6 +79,16 @@ h2 {
   border: 2px solid grey;
 }
 
+#marmalady img {
+  display: none;
+  /*width: 850px;*/
+}
+
+#marmalady:hover img {
+  display: inline-block;
+  width: 400px;
+}
+
 .email-link {
   font-size: 3em;
 }
