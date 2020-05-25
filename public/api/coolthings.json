@@ -23,9 +23,9 @@
     },
     {
       "attributes": {
-        "title": "MIT's Computer Systems Security Course",
+        "title": "MIT's Computer Systems Security Course (Spring 2020)",
         "image": "/assets/images/mit-6858.png",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+        "description": "<p>My embedded work at NASA never had security requirements (I wasn't in charge of uplink/downlink encryption), and I didn't study security in college, so to plug this hole in my engineering knowledge I did all projects, lectures, and paper readings for <a href=\"https://css.csail.mit.edu/6.858/2020/\">MIT's excellent Computer Systems Security course.</a></p><p>Projects focused on both attack and defense. I wrote buffer overflow exploits using ROP gadgets, XSS and CSRF exploits, and a browser worm inspired by the infamous <a href=\"https://web.archive.org/web/20130329061059/http://namb.la:80/popular/tech.html\">Samy worm.</a> I also broke a simple web server process into separate containers with a restricted RPC interface to improve isolation, implemented <a href=\"https://en.wikipedia.org/wiki/Concolic_testing\">concolic execution</a> functionality, and implemented a remote file system that had integrity guarantees even when an adversary controls the file server. (Note: course instructors have requested that project solutions be kept off github, so these repositories are only available upon request.)</p>"
       }
     },
     {
