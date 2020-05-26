@@ -4,6 +4,7 @@ set -e
 
 echo "chmodding files..."
 chmod -R og+r public/assets/*
+chmod -R og-w public/assets/*
 echo "done."
 
 echo "Building distribution..."
