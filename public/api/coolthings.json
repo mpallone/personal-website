@@ -44,17 +44,17 @@
     },
     {
       "attributes": {
-        "title": "CHORD - Distributed Hash Table with Logarithmic Lookup",
+        "title": "Chord - Distributed Hash Table with Logarithmic Lookup",
         "image": "/assets/images/chord.png",
         "image-author": "By Seth Terashima (Tetra7 (talk)) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10089321",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+        "description": "<p>In Spring 2015 I took <a href=\"https://www.csee.umbc.edu/people/faculty/konstantinos-kalpakis/\">Dr. Konstantinos Kalpakis'</a> graduate course in Advanced Operating Systems. The final project was to implement <a href=\"https://pdos.csail.mit.edu/papers/ton:chord/paper-ton.pdf\">Chord</a>, a distributed hash table with logarithmic lookup performance.</p> <p>Our Go implementation is <a href=\"https://github.com/mpallone/chord/blob/master/chord/chord.go\">here</a>.</p>"
       }
     },
     {
       "attributes": {
         "title": "Udacity Front-End Web Developer Nanodegree",
         "image": "/assets/images/udacity.png",
-        "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+        "description": "<p>To become a more well-rounded engineer (and for fun!), I <a href=\"/assets/udacity-nanodegree-cert.pdf\">completed</a> Udacity's Front End Web Developer Nanodegree in 2017.</p><p>Course topics and projects included responsive web design, browser and network request optimization, JavaScript best practices, MVC, and much more.</p><p>The <a href=\"https://github.com/mpallone/neighborhood-map\">final project</a> used Knockout, JQuery, the Google Maps API, and the New York Times API to create a handy <a href=\"https://mpallone.github.io/neighborhood-map/\">map</a> of New York City coffee shops. And of course, I used this knowledge to build <a href=\"https://github.com/mpallone/personal-website\">this site</a>."
       }
     }
   ]
