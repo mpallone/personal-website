@@ -56,6 +56,13 @@
         "image": "/assets/images/udacity.png",
         "description": "<p>To become a more well-rounded engineer (and for fun!), I <a href=\"/assets/udacity-nanodegree-cert.pdf\">completed</a> Udacity's Front End Web Developer Nanodegree in 2017.</p><p>Course topics and projects included responsive web design, browser and network request optimization, JavaScript best practices, MVC, and much more.</p><p>The <a href=\"https://github.com/mpallone/neighborhood-map\">final project</a> used Knockout, JQuery, the Google Maps API, and the New York Times API to create a handy <a href=\"https://mpallone.github.io/neighborhood-map/\">map</a> of New York City coffee shops. And of course, I used this knowledge to build <a href=\"https://github.com/mpallone/personal-website\">this site</a>."
       }
+    },
+    {
+      "attributes": {
+        "title": "Computer Science Undergraduate Teaching Assistant",
+        "image": "/assets/images/umbc.png",
+        "description": "<p>I worked as an undergraduate teaching assistant for two years at my alma mater UMBC. This included teaching labs, tutoring and project assistance for lower level classes (up to and including data structures), and grading.</p> <p>I primarily supported <a href=\"https://www.csee.umbc.edu/courses/201/spring11/contact.shtml\">CMSC 201: Computer Science I for Majors,</a> where I helped teach students programming fundamentals (e.g., for-loops, strings, etc.), and more advanced topics such as recursion and design.</p> "
+      }
     }
   ]
 }
