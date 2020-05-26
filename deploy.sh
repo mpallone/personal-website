@@ -2,6 +2,10 @@
 
 set -e
 
+echo "chmodding files..."
+chmod -R og+r public/assets/*
+echo "done."
+
 echo "Building distribution..."
 ember build —environment=production
 echo "done."
