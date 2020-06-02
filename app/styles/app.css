@@ -126,6 +126,12 @@ li {
     float: right;
   }
 }
+@media only screen and (max-width: 344px) {
+  .title-name {
+    /* Make top bar taller if width gets too small, so my name doesn't go beyond bar. */
+    height: 3em;
+  }
+}
 
 footer {
   background-color: #306da0;
