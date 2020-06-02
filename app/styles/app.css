@@ -64,22 +64,6 @@ h2 {
   border-style: solid;
 }
 
-
-.my-face {
-  background: url(../assets/images/me-temp.jpeg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: 250px;
-
-  position: relative;
-  margin: 10px;
-  padding: 10px;
-
-  /*border-style: solid;*/
-  border: 2px solid grey;
-}
-
 #marmalady img {
   display: none;
   /*width: 850px;*/
@@ -103,8 +87,37 @@ li {
   list-style: none;
 }
 
-.cool-thing-img {
+.my-face {
+  background: url(../assets/images/me-temp.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 250px;
+
+  /*position: relative;*/
+  margin: 10px;
+  padding: 10px;
+
+  /*border-style: solid;*/
   border: 2px solid grey;
+}
+
+.cool-thing-img {
+  /*border: 2px solid grey;*/
+}
+
+@media only screen and (max-width : 992px) {
+  .cool-thing-img {
+    float: center;
+    text-align: center;
+  }
+}
+@media only screen and (min-width : 993px) {
+  .cool-thing-img {
+    float: left;
+    position: relative;
+    border: 2px solid grey;
+  }
 }
 
 footer {
